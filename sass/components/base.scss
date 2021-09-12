@@ -1,0 +1,32 @@
+$background: #111;
+:root {
+  --font-size: 16px;
+  --color-primary: #fff;
+  --color-secondary: yellowgreen;
+  --color-teritiary: #fdc500;
+}
+html {
+  font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+@import "./nav";
+@import "./signup";
+@import "./show";
+@import "./inform";
+@import "./header";
